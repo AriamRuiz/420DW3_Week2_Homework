@@ -2,10 +2,10 @@
 declare(strict_types=1);
 
 /*
- * 420DW3_Week2_Homework Question1.php
+ * 420DW3_Week2_Homework Question3.php
  * 
- * @author Marc-Eric Boury (MEbou)
- * @since 1/18/2023
+ * @author Marc-Eric Boury (Newironsides)
+ * @since 2023-01-19
  * (c) Copyright 2023 Marc-Eric Boury 
  */
 
@@ -29,14 +29,21 @@ require_once PROJECT_ABS_ROOT."Correction/correction_functions.php";
 // END OF YOUR CODE
 
 
+// <editor-fold defaultstate="collapsed" desc="preset values">
+$given_array = [3, 56, "hello", "potato"];
+$given_value = -4;
+$if_result = null;
+// </editor-fold>
+
+
 /*
- * Question 1:
- * a) Declare a variable named "integer_variable" and initialize it with an integer of value 5
- * b) Declare a variable named "string_variable" and initialize it with an string of value "Oh my, a string!"
- * c) Declare a variable named "boolean_variable" and initialize it with the boolean TRUE
- * d) Declare a constant named "MY_CONSTANT" using the const syntax and initialize it with an integer of value 1
- * e) Declare a constant named "MY_OTHER_CONSTANT" using the define() syntax and initialize it with the variable
- *      'boolean_variable' as its value.
+ * Question 3: control statements
+ * a) Create an empty array variable named "my_array". Then, create a foreach loop that iterates over the elements
+ *      of the array $given_array (exists already). Inside the loop, add the element to "my_array" by using
+ *      the array access operator without a specified key.
+ * b) Create an if... elseif... else... statement that checks whether the value of the variable $given_value
+ *      (exists already) is less than, equal or greater than zero. Depending on the case, assign the value -1, 0 or 1
+ *      respectively to the variable $if_result (exists already).
  */
 // WRITE YOUR CODE HERE
 
@@ -44,5 +51,4 @@ require_once PROJECT_ABS_ROOT."Correction/correction_functions.php";
 
 
 // END OF YOUR CODE
-
-correct_question1();
+correct_question3();

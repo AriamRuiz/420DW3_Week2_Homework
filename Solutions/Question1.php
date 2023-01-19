@@ -40,8 +40,11 @@ require_once PROJECT_ABS_ROOT."Correction/correction_functions.php";
  */
 // WRITE YOUR CODE HERE
 
-
-
+$integer_variable = 5;
+$string_variable = "Oh my, a string!";
+$boolean_variable = true;
+const MY_CONSTANT = 1;
+define("MY_OTHER_CONSTANT", $boolean_variable);
 
 // END OF YOUR CODE
 
