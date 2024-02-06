@@ -13,6 +13,8 @@ declare(strict_types=1);
  * The absolute path of the project root directory
  */
 const PROJECT_ABS_ROOT = __DIR__ . DIRECTORY_SEPARATOR;
+
+// Set this to true to see debug information for the solutions
 $test_solutions = false;
 
 if ($test_solutions) {
