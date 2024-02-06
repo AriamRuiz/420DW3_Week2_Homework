@@ -40,8 +40,8 @@ require_once PROJECT_ABS_ROOT."Correction/correction_functions.php";
  */
 // WRITE YOUR CODE HERE
 
-
-
+$integer_variable = 5;
+$string_variable = "Oh my, a string!";
 
 // END OF YOUR CODE
 
